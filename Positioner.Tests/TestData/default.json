@@ -1,0 +1,21 @@
+{
+  "version": "v1",
+  "kind": "Browser",
+  "metadata": {
+    "name": "test 1",
+    "id": "uuid",
+    "created-timestamp": "2025-01-01T00:00:00Z",
+    "updated-timestamp": "2025-01-01T00:00:00Z"
+  },
+  "spec": {
+    "position": {
+      "x": 0,
+      "y": 0,
+      "width": 1200,
+      "height": 600
+    },
+    "urls": [
+      "https://www.gridstatus.io/live"
+    ]
+  }
+}
