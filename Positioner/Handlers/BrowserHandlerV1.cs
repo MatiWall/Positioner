@@ -21,7 +21,11 @@ namespace Positioner.Serives
             
             foreach (var url in spec.Urls)
             {
-                System.Diagnostics.Process.Start(url);  
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true // important for opening URLs
+                });
             }
         }
     }
