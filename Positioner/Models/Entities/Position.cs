@@ -10,15 +10,15 @@ namespace Positioner.Models
     internal class Position
     {
         [JsonPropertyName("x")]
-        public double X { get; set; }
+        public int X { get; set; }
 
         [JsonPropertyName("y")]
-        public double Y { get; set; }
+        public int Y { get; set; }
 
         [JsonPropertyName("width")]
-        public double Width { get; set; }
+        public int Width { get; set; }
 
         [JsonPropertyName("height")]
-        public double Height { get; set; }
+        public int Height { get; set; }
     }
 }

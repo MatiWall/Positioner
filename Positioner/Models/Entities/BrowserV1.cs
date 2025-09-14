@@ -10,9 +10,9 @@ namespace Positioner.Models
     internal class BrowserSpecV1
     {
         [JsonPropertyName("position")]
-        public Position position { get; set; }
+        public Position Position { get; set; }
 
         [JsonPropertyName("urls")]
-        public List<string> Urls { get; set; }
+        public IReadOnlyList<string> Urls { get; set; }
     }
 }
