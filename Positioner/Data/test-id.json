@@ -15,7 +15,8 @@
       "height": 600
     },
     "urls": [
-      "https://www.gridstatus.io/live"
+      "https://www.gridstatus.io/live",
+      "https://www.gridstatus.io/live/ercot"
     ]
   }
 }
