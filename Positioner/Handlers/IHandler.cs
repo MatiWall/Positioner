@@ -6,7 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Positioner.Models;
 using System.Runtime.CompilerServices;
-namespace Positioner.Serives
+
+
+namespace Positioner.Services
 {
     public interface IEntityHandler
     {

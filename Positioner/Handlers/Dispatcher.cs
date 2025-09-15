@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Positioner.Models;
 
-namespace Positioner.Serives
+namespace Positioner.Services
 {
     internal class Dispatcher
     {

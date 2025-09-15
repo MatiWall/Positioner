@@ -1,6 +1,6 @@
 ﻿
 using Positioner.Repositories;
-using Positioner.Serives;
+using Positioner.Services;
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
